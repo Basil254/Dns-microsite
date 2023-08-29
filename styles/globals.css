@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.time {
+  font-size: 20px;
+}
+
+@keyframes scrollText {
+  0%,
+  100% {
+    transform: translateX(-10%);
+  }
+  25%,
+  75% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+}
+
+.animate-scrollText {
+  animation: scrollText 10s linear infinite;
+}
+
+/* Schedule*/
+
+#filterTable {
+  border-collapse: collapse;
+  width: 600px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#filterTable th,
+#filterTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#filterTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#filterTable tr.header,
+#filterTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Adjust the spacing value as needed */
+}
