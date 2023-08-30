@@ -112,20 +112,31 @@ const ContactForm = () => {
             </li>
           </ul>
           <div className="flex gap-4 my-5">
-            <IconButton className="rounded bg-[#ea4335] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-              <BsYoutube />
-            </IconButton>
-            <IconButton className="rounded bg-[#1DA1F2] hover:shadow-[#1DA1F2]/20 focus:shadow-[#1DA1F2]/20 active:shadow-[#1DA1F2]/10">
-              <BsFacebook />
-            </IconButton>
-            <IconButton className="rounded bg-[#ea4c89] hover:shadow-[#ea4c89]/20 focus:shadow-[#ea4c89]/20 active:shadow-[#ea4c89]/10">
-              <BsInstagram />
-            </IconButton>
+            <a href="https://www.youtube.com/channel/UCfpfyvDcBZn5YLP7hj1z2Ug" target="_blank" rel="noopener noreferrer">
+              <IconButton className="rounded bg-[#ea4335] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
+                <BsYoutube />
+                </IconButton>
+            </a>
+  
+            <a href="https://www.facebook.com/Kenictld" target="_blank" rel="noopener noreferrer">
+              <IconButton className="rounded bg-[#1DA1F2] hover:shadow-[#1DA1F2]/20 focus:shadow-[#1DA1F2]/20 active:shadow-[#1DA1F2]/10">
+                <BsFacebook />
+              </IconButton>
+            </a>
+            
+            <a href="https://www.instagram.com/kenictld/" target="_blank" rel="noopener noreferrer">
+              <IconButton className="rounded bg-[#ea4c89] hover:shadow-[#ea4c89]/20 focus:shadow-[#ea4c89]/20 active:shadow-[#ea4c89]/10">
+                <BsInstagram />
+              </IconButton>
+            </a>
 
-            <IconButton className="rounded bg-[#333333] hover:shadow-[#333333]/20 focus:shadow-[#333333]/20 active:shadow-[#333333]/10">
-              x
-            </IconButton>
+            <a href="https://twitter.com/KenicTLD" target="_blank" rel="noopener noreferrer">
+              <IconButton className="rounded bg-[#333333] hover:shadow-[#333333]/20 focus:shadow-[#333333]/20 active:shadow-[#333333]/10">
+                x
+              </IconButton>
+            </a>
           </div>
+
         </div>
       </div>
     </div>
