@@ -98,7 +98,7 @@ const Speakers = () => {
   return (
     <div className="mb-6" id="speakers">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-center text-4xl lg:text-5xl font-bold my-5 text-[#010101]">
+        <h1 className="text-2xl lg:text-4xl text-[#010101] font-bold mb-4">
           Our Speakers
         </h1>
         <p className="text-center mx-[1px] lg:mx-0 lg:w-[49%] pb-4 lg:pb-8 text-lg text-[#010101]">
