@@ -19,18 +19,6 @@ const About = () => {
               alt="about"
               className="w-full h-full object-cover rounded-md"
             />
-            <figcaption
-              className="text-center mt-2 text-black animate-bounce animate-scrollText "
-              style={{
-                fontFamily: "Arial, sans-serif",
-                fontWeight: "bold",
-                fontSize: "18px",
-                whiteSpace: "nowrap",
-                overflow: "hidden",
-              }}
-            >
-              Kenya DNS forum 2022
-            </figcaption>
           </figure>
         </div>
         <div className="w-full lg:w-[50%] px-4">

@@ -21,8 +21,15 @@ const Schedule = () => {
       <div className="flex flex-col lg:flex-row-reverse mx-2 lg:mx-16 justify-center gap-5 my-10">
         <div className="lg:w-[50%]">
           <Slide triggerOnce direction="left">
-            <h1 className="text-2xl lg:text-5xl font-bold mb-5 text-[#010101]">
-              Tentative Proposed Agenda for Kenya Dns
+            <h1  className="text-2xl lg:text-4xl text-[#010101] font-bold mb-4"
+              style={{
+                fontFamily: "Arial, sans-serif",
+                fontWeight: "bold",
+                fontSize: "33px",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+              }}>
+              Tentative Agenda for 2023 Kenya DNS
             </h1>
           </Slide>
         </div>

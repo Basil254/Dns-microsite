@@ -17,7 +17,7 @@ const ExpectedOutcomes = () => {
       </div>
       <div className="lg:w-[50%]">
         <Slide triggerOnce direction="left">
-          <h1 className="text-2xl lg:text-5xl font-bold mb-5 text-[#010101]">
+          <h1 className="text-2xl lg:text-4xl text-[#010101] font-bold mb-4">
             Expected Outcomes
           </h1>
         </Slide>
@@ -25,7 +25,7 @@ const ExpectedOutcomes = () => {
         <Fade cascade>
           <ul className="list-decimal pl-8 flex flex-col gap-5 text-justify">
             {expectedOutcomes.map(({ topic }, index) => (
-              <li className="text-xl text-[#606163] mr-2" key={index}>
+              <li className="text-lg text-[#606163] mr-2" key={index}>
                 {topic}
               </li>
             ))}
