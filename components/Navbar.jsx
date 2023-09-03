@@ -3,6 +3,9 @@ import React from "react";
 import Image from "next/image";
 import logo from "@assets/KeNIC Logo.png";
 
+import sponsorpdf from '@assets/KDNS_Sponsorship_Package_V1.pdf';
+
+
 import {
   Navbar,
   Collapse,
@@ -83,15 +86,23 @@ export function StickyNavbar() {
               </a>
             </Button>
             {/* New Become a Sponsor Button */}
-            <Button
-              variant="gradient"
-              size="sm"
-              className="hidden lg:inline-block"
-            >
-              <a href="#Become a Sponsor" className="flex items-center">
+            <Button variant="gradient" size="sm" className="hidden lg:inline-block">
+              <a
+              href={sponsorpdf}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+              >
                 <span>Become a Sponsor</span>
               </a>
             </Button>
+
+            {/* PDF Viewer */}
+            <div className="hidden lg:inline-block">
+              <Document file={sponsorpdf}>
+                <Page pageNumber={1} />
+              </Document>
+            </div>
             <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

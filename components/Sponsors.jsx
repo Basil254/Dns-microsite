@@ -16,7 +16,7 @@ const Sponsors = () => {
       <div className="flex">
         <Slide triggerOnce direction="left">
           <h1 className="text-lg lg:text-4xl font-bold mb-2 text-[#010101]">
-            2022 KENYA DNS SPONSORS
+            OUR PARTNERS
           </h1>
         </Slide>
       </div>
